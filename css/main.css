@@ -1,0 +1,188 @@
+/*****Base Styles******/
+
+body{
+  overflow: auto;
+}
+
+/****GRID*****/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width{
+  width:600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left; 
+  text-align: center;
+}
+
+
+
+
+
+/*****HEADER*****/
+
+
+ header {
+   background: url('../img/computer.jpg');
+   height: 600px;
+   background-size: cover;
+ }
+
+header h1{
+  font-family: 'Noto Serif', serif;
+  font-size: 50px;
+  text-align: center;
+  color: #272f60;
+  padding: 10px 0 65px 15px;
+  
+}
+
+nav{
+  float:right;
+  /*****need to get closer to right***/
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  font-family: 'Arimo', sans-serif;
+  font-size: 19px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+header h2{
+  font-family: 'Hind', sans-serif;
+  color: #0e0e01;
+  text-align: center;
+  font-size: 33px;
+  padding: 460px 0 15px 300px;
+}
+
+
+/*****PROFILE*******/
+
+
+#profile {
+  height: auto;
+  padding-bottom: 50px;
+  background-color: #f0d6f8;
+}
+
+#profile h3{
+  color: #1d295b;
+  font-family: 'Noto Serif', serif;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+#profile h4{
+  color: #1d295b;
+  font-family: 'Hind', sans-serif;
+  font-size: 35px;
+ 
+}
+
+#profile p {
+  font-family: 'Hind', sans-serif;
+  color: #1d295b;
+  font-size: 20px;
+ 
+}
+
+#profile img{
+  height: 300px;
+  width: 500px;
+  float: left;
+  padding-right: 50px;
+}
+
+.project-one,
+.project-two,
+.project-three{
+  height:300px;
+  width: 1100px;
+}
+
+
+/*******ABOUT******/
+
+#about-me {
+  background:#a18ae2;
+  height: 500px;
+}
+
+#about-me h3{
+  font-family: 'Noto Serif', serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 15px; 
+}
+
+#about-me img{
+  height: 300px;
+  width: 300px;
+}
+  
+#about-me p{
+  color: black;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  
+}
+
+
+/*****Contact****/
+
+#contact {
+  background: #f0d6f8;
+  height: 300px;
+}
+
+#contact h3{
+  font-family: 'Noto Serif', serif;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  
+}
+
+#contact .third-width{
+  float:left;
+}
+
+#contact h4{
+  color: black;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+}
+
+#contact p {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+}
+
+/****footer***/
+
+footer {
+  overflow: auto;
+  background-color: #f0d6f8;
+  text-align: center;
+  padding: 15px;
+}
